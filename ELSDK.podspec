@@ -2,11 +2,11 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ELSDK"
-  spec.version      = "6.2.0"
+  spec.version      = "6.3.0"
   spec.summary      = "use ELSDK."
 
   spec.description  = <<-DESC
-                      ELSDK
+                      a easy way to use ELSDK
                    DESC
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
