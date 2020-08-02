@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   
   spec.dependency 'Firebase/Analytics', '~> 6.29.0'
   spec.dependency 'AppsFlyerFramework', '~> 5.4.1'
-  spec.dependency 'FBSDKCoreKit','~> 5.15.1'
-  spec.dependency 'FBSDKLoginKit','~> 5.15.1'
+  spec.dependency 'FBSDKCoreKit','~> 6.5.2'
+  spec.dependency 'FBSDKLoginKit','~> 6.5.2'
 
 end
