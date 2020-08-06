@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ELSDK"
-  spec.version      = "6.2.1"
+  spec.version      = "6.2.2"
   spec.summary      = "use ELSDK."
 
   spec.description  = <<-DESC
