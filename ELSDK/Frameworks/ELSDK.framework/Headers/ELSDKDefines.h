@@ -99,6 +99,7 @@ extern NSString *const EL_CALLBACK_FAIL;         //回调失败
 @end
 
 typedef void  (^ELCallbackBlock)(ELCallbackModel *callbackModel);
+typedef void  (^ELCallback)(void);
 
 
 @interface ELSDKDefines : NSObject
