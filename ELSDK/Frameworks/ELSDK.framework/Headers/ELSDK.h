@@ -26,11 +26,11 @@
 + (NSString *)version;
 
 
-@end
+//@end
 
 #pragma mark - 平台基本信息 **************************************************
 
-@interface ELSDK(ELInit)
+//@interface ELSDK(ELInit)
 
 /**
  *  选择相册的时候支持竖屏
@@ -46,6 +46,7 @@
  */
 - (void)setGameID:(NSString *)gameID sdkSecret:(NSString *)sdkSecret;
 
+- (void)setGameID:(NSString *)gameID sdkSecret:(NSString *)sdkSecret andCallback:(ELCallbackBlock)callback;
 /**
  *  @brief 设置market
  *
