@@ -19,8 +19,8 @@ extern NSString *const EL_WEBVIEW_CUSTOMER_NOTIFICATION;   //平台键点开的�
 
 extern NSString *const EL_INFO_VIEW_CLOSE_NOTIFICATION;   //关闭InfoView
 
-
 extern NSString *const EL_TIPS_WEBVIEW_CLOSE_NOTIFICATION;  //TIPS页面 关闭
+extern NSString *const EL_TIPS_WEBVIEW_RESULT_NOTIFICATION;
 
 //GameCenter
 extern NSString *const EL_PRESENT_AUTHVIEWCONTROLLER_NOTIFICATION;
@@ -54,7 +54,7 @@ extern NSString *const EL_REVIEW_STAR_JSOC;
 extern NSString *const EL_REMOVE_TRANSCATIONS;      //删除TRANSCATIONS
 extern NSString *const EL_SIMULATED_LOGIN_JSOC;     //模拟登录
 extern NSString *const EL_PSD_CHANGE;               //网页修改密码
-
+extern NSString *const EL_discrete_Result;
 
 typedef NS_ENUM(NSInteger, ELSTATUS) {
     message_fail = 0,                       //失败

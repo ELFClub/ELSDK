@@ -46,7 +46,10 @@
  */
 - (void)setGameID:(NSString *)gameID sdkSecret:(NSString *)sdkSecret;
 
-- (void)setGameID:(NSString *)gameID sdkSecret:(NSString *)sdkSecret andCallback:(ELCallbackBlock)callback;
+- (void)setGameID:(NSString *)gameID sdkSecret:(NSString *)sdkSecret callback:(ELCallbackBlock)callback;
+
+//- (void)setGameID:(NSString *)gameID sdkSecret:(NSString *)sdkSecret isShowLoading:(Boolean)isShowLoading callback:(ELCallbackBlock)callback;
+
 /**
  *  @brief 设置market
  *
