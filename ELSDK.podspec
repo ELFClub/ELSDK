@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ELSDK"
-  spec.version      = "6.3.1"
+  spec.version      = "6.3.3"
   spec.summary      = "use ELSDK."
 
   spec.description  = <<-DESC
@@ -30,14 +30,12 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks =  ['ELSDK/Frameworks/ELSDK.framework','ELSDK/Frameworks/TapDB_iOS.framework']
 
-  valid_archs     = ['armv7', 'armv7s', 'x86_64', 'arm64']
+  valid_archs     = ['armv7', 'x86_64', 'arm64']
   spec.xcconfig   = {
     'VALID_ARCHS' =>  valid_archs.join(' '),
   }
   
-  #spec.dependency 'AppsFlyerFramework', '~> 5.4.4'
   spec.dependency 'FBSDKCoreKit','~> 7.1.1'
   spec.dependency 'FBSDKLoginKit','~> 7.1.1'
-  spec.dependency 'Adjust','~> 4.23.1'
 
 end

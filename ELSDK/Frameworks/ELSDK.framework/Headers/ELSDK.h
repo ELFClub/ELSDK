@@ -278,32 +278,6 @@
  */
 - (void)trackEvent:(NSString *)eventName withValues:(NSDictionary *)values;
 
-/**
- *  @brief 自定义事件跟踪
- *
- *  @param token 事件名称
- *
- */
-- (void)TrackAdjustEvent:(NSString *)token isOne:(Boolean)isOne;
-
-/**
- *  @brief 自定义事件跟踪
- *
- *  @param token 事件名称
- *  @param value 事件的值
- *
- */
-- (void)TrackAdjustEvent:(NSString *)token withValue:(NSString *)value isOne:(Boolean)isOne;
-
-/**
- *  @brief 自定义事件跟踪
- *
- *  @param token 事件名称
- *  @param values 事件的值，字典类型
- *
- */
-- (void)TrackAdjustEvent:(NSString *)token withValues:(NSDictionary *)values isOne:(Boolean)isOne;
-
 
 @end
 
