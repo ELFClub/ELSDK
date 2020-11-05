@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ELSDK"
-  spec.version      = "6.3.3"
+  spec.version      = "6.3.3.1"
   spec.summary      = "use ELSDK."
 
   spec.description  = <<-DESC
@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
     'VALID_ARCHS' =>  valid_archs.join(' '),
   }
   
-  spec.dependency 'FBSDKCoreKit','~> 7.1.1'
-  spec.dependency 'FBSDKLoginKit','~> 7.1.1'
+  spec.dependency 'FBSDKCoreKit','~> 8.1.0'
+  spec.dependency 'FBSDKLoginKit','~> 8.1.0'
 
 end
